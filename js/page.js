@@ -24,7 +24,7 @@ $(function(){
 	$(window).resize(function(){
 		$(".marsk").height(parseInt($(".hdgz_box").outerHeight())+"px");
 	})
-//	$(".marsk").height(parseInt($(".hdgz_box").outerHeight())+"px");
+	$(".marsk").height(parseInt($(".hdgz_box").outerHeight())+"px");
 	if (!$(".login").is(":hidden")) {
 		$(".marsk").show();
 	}else{
